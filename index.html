@@ -252,7 +252,7 @@
 <div class="container">
     <div class="grid">
         <div class="card">
-            <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?w=400&auto=format');"></div>
+            <div class="card-img" style="background-image: url('https://hasnae.com/wp-content/uploads/2012/07/Baklawa-marocaine-Hasnae.com--300x225.jpg');"></div>
             <div class="card-content">
                 <h3>بقلاوة ملكية</h3>
                 <p style="color:var(--accent); margin: 8px 0;">150 درهم / كجم</p>
@@ -289,13 +289,56 @@
                     <span id="q2">0.5</span>
                     <button class="btn-step" onclick="changeQty('q2', 0.5)">+</button>
                 </div>
-                <button class="add-btn" onclick="addToCart('ماكرون فاخر', 200, 'q2')">أضف للسلة</button> 
+                <button class="add-btn" onclick="addToCart('كعك مسفيوي', 200, 'q2')">أضف للسلة</button> 
             </div>
         </div>
 
+       <div class="card">
+            <div class="card-img" style="background-image: url('https://i.pinimg.com/564x/9f/a3/4a/9fa34a0f24fbf9f4e0e678e7e76589b7.jpg');"></div>
+            <div class="card-content">
+                <h3>فقاص باللوز</h3>
+                <p style="color:var(--accent); margin: 8px 0;">100 درهم / كجم</p>
+                <div class="qty-controls">
+                    <button class="btn-step" onclick="changeQty('q2', -0.5)">-</button>
+                    <span id="q2">0.5</span>
+                    <button class="btn-step" onclick="changeQty('q2', 0.5)">+</button>
+                </div>
+                <button class="add-btn" onclick="addToCart('فقاص باللوز', 200, 'q2')">أضف للسلة</button> 
+            </div>
+        </div>
+
+   <div class="card">
+            <div class="card-img" style="background-image: url('https://eloosra.com/wp-content/uploads/2020/03/2-12-1280x640.jpg');"></div>
+            <div class="card-content">
+                <h3>صابلي بالشكلاط</h3>
+                <p style="color:var(--accent); margin: 8px 0;">40 درهم / كجم</p>
+                <div class="qty-controls">
+                    <button class="btn-step" onclick="changeQty('q2', -0.5)">-</button>
+                    <span id="q2">0.5</span>
+                    <button class="btn-step" onclick="changeQty('q2', 0.5)">+</button>
+                </div>
+                <button class="add-btn" onclick="addToCart('صابلي بالشكلاط', 200, 'q2')">أضف للسلة</button> 
+            </div>
+        </div>
+
+    <div class="card">
+            <div class="card-img" style="background-image: url('https://eloosra.com/wp-content/uploads/2021/01/%D8%AD%D9%84%D9%88%D9%8A%D8%A7%D8%AA-1280x640.jpg');"></div>
+            <div class="card-content">
+                <h3>صابلي بالشكلاط منوع</h3>
+                <p style="color:var(--accent); margin: 8px 0;">40 درهم / كجم</p>
+                <div class="qty-controls">
+                    <button class="btn-step" onclick="changeQty('q2', -0.5)">-</button>
+                    <span id="q2">0.5</span>
+                    <button class="btn-step" onclick="changeQty('q2', 0.5)">+</button>
+                </div>
+                <button class="add-btn" onclick="addToCart('صابلي بالشكلاط منوع', 200, 'q2')">أضف للسلة</button> 
+            </div>
+        </div>
+
+        
 <script>
     // ⚙️ ضع رقم واتسابك الفعلي هنا (بدون +، مثال: 212612345678)
-    const WHATSAPP_NUMBER = "212600000000";
+    const WHATSAPP_NUMBER = "212656227194";
 
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
