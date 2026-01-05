@@ -279,9 +279,19 @@
             </div>
         </div>
 
-        <!-- يمكنك إضافة المزيد من المنتجات هنا لاحقًا -->
-    </div>
-</div>
+        <div class="card">
+            <div class="card-img" style="background-image: url('https://arabicpost.net/wp-content/uploads/2023/04/screenshot_3-3.png');"></div>
+            <div class="card-content">
+                <h3>كعك مسفسوي</h3>
+                <p style="color:var(--accent); margin: 8px 0;">35 درهم / كجم</p>
+                <div class="qty-controls">
+                    <button class="btn-step" onclick="changeQty('q2', -0.5)">-</button>
+                    <span id="q2">0.5</span>
+                    <button class="btn-step" onclick="changeQty('q2', 0.5)">+</button>
+                </div>
+                <button class="add-btn" onclick="addToCart('ماكرون فاخر', 200, 'q2')">أضف للسلة</button> 
+            </div>
+        </div>
 
 <script>
     // ⚙️ ضع رقم واتسابك الفعلي هنا (بدون +، مثال: 212612345678)
